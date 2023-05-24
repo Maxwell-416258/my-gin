@@ -1,0 +1,50 @@
+{"level":"DEBUG","timestamp":"2023-05-23 13:57:42.427","file":"mygin/main.go:23","msg":"命令行参数解析完成......"}
+{"level":"DEBUG","timestamp":"2023-05-23 13:57:42.443","file":"dbConnect/db_init.go:29","msg":"开始连接数据库......"}
+{"level":"ERROR","timestamp":"2023-05-23 13:57:42.444","file":"dbConnect/db_init.go:32","msg":"Database connetction filed,Database name: flask","data":{"error":"sql: unknown driver \"mysql\" (forgotten import?)"}}
+{"level":"DEBUG","timestamp":"2023-05-23 13:58:58.287","file":"mygin/main.go:23","msg":"命令行参数解析完成......"}
+{"level":"DEBUG","timestamp":"2023-05-23 13:58:58.302","file":"dbConnect/db_init.go:29","msg":"开始连接数据库......"}
+{"level":"ERROR","timestamp":"2023-05-23 13:58:58.303","file":"dbConnect/db_init.go:32","msg":"Database connetction filed,Database name: flask","data":{"error":"sql: unknown driver \"mysql\" (forgotten import?)"}}
+{"level":"DEBUG","timestamp":"2023-05-23 14:03:46.610","file":"mygin/main.go:23","msg":"命令行参数解析完成......"}
+{"level":"DEBUG","timestamp":"2023-05-23 14:03:46.627","file":"dbConnect/db_init.go:33","msg":"开始连接数据库......"}
+{"level":"ERROR","timestamp":"2023-05-23 14:03:46.627","file":"dbConnect/db_init.go:36","msg":"Database connetction filed,Database name: flask","data":{"error":"sql: unknown driver \"mysql\" (forgotten import?)"}}
+{"level":"DEBUG","timestamp":"2023-05-23 14:03:58.790","file":"mygin/main.go:23","msg":"命令行参数解析完成......"}
+{"level":"DEBUG","timestamp":"2023-05-23 14:03:58.804","file":"dbConnect/db_init.go:33","msg":"开始连接数据库......"}
+{"level":"ERROR","timestamp":"2023-05-23 14:03:58.804","file":"dbConnect/db_init.go:36","msg":"Database connetction filed,Database name: flask","data":{"error":"sql: unknown driver \"mysql\" (forgotten import?)"}}
+{"level":"DEBUG","timestamp":"2023-05-23 14:06:41.131","file":"mygin/main.go:23","msg":"命令行参数解析完成......"}
+{"level":"DEBUG","timestamp":"2023-05-23 14:06:41.146","file":"dbConnect/db_init.go:34","msg":"开始连接数据库......"}
+{"level":"DEBUG","timestamp":"2023-05-23 16:37:07.441","file":"mygin/main.go:23","msg":"命令行参数解析完成......"}
+{"level":"DEBUG","timestamp":"2023-05-23 16:37:07.464","file":"dbConnect/db_init.go:34","msg":"开始连接数据库......"}
+{"level":"ERROR","timestamp":"2023-05-23 16:37:38.554","file":"service/create.go:19","msg":"注册失败，参数绑定异常","data":{"error":"Key: 'UserModel.Username' Error:Field validation for 'Username' failed on the 'required' tag\nKey: 'UserModel.Password' Error:Field validation for 'Password' failed on the 'required' tag"}}
+{"level":"DEBUG","timestamp":"2023-05-23 16:37:38.588","file":"service/response.go:28","msg":"[response data]:{\"code\":1002,\"message\":\"Error occurred while binding the request body struct\",\"data\":null}"}
+{"level":"ERROR","timestamp":"2023-05-23 16:38:16.844","file":"service/create.go:19","msg":"注册失败，参数绑定异常","data":{"error":"Key: 'UserModel.Username' Error:Field validation for 'Username' failed on the 'required' tag\nKey: 'UserModel.Password' Error:Field validation for 'Password' failed on the 'required' tag"}}
+{"level":"DEBUG","timestamp":"2023-05-23 16:38:16.845","file":"service/response.go:28","msg":"[response data]:{\"code\":1002,\"message\":\"Error occurred while binding the request body struct\",\"data\":null}"}
+{"level":"ERROR","timestamp":"2023-05-23 16:38:27.044","file":"service/create.go:19","msg":"注册失败，参数绑定异常","data":{"error":"Key: 'UserModel.Username' Error:Field validation for 'Username' failed on the 'required' tag\nKey: 'UserModel.Password' Error:Field validation for 'Password' failed on the 'required' tag"}}
+{"level":"DEBUG","timestamp":"2023-05-23 16:38:27.045","file":"service/response.go:28","msg":"[response data]:{\"code\":1002,\"message\":\"Error occurred while binding the request body struct\",\"data\":null}"}
+{"level":"DEBUG","timestamp":"2023-05-23 16:39:36.967","file":"mygin/main.go:23","msg":"命令行参数解析完成......"}
+{"level":"DEBUG","timestamp":"2023-05-23 16:39:36.985","file":"dbConnect/db_init.go:34","msg":"开始连接数据库......"}
+{"level":"DEBUG","timestamp":"2023-05-23 16:39:39.230","file":"service/create.go:27","msg":"user data insert xzx252345"}
+{"level":"DEBUG","timestamp":"2023-05-23 16:39:39.246","file":"service/response.go:28","msg":"[response data]:{\"code\":20002,\"message\":\"Database error\",\"data\":{\"Number\":1146,\"Message\":\"Table 'flask.user_models' doesn't exist\"}}"}
+{"level":"DEBUG","timestamp":"2023-05-23 16:42:56.851","file":"service/create.go:27","msg":"user data insert xzx252345"}
+{"level":"DEBUG","timestamp":"2023-05-23 16:42:56.858","file":"service/response.go:28","msg":"[response data]:{\"code\":0,\"message\":\"success!\",\"data\":{\"Username\":\"xzx252345\",\"Role\":1}}"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:06:44.111","file":"mygin/main.go:23","msg":"命令行参数解析完成......"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:06:44.133","file":"dbConnect/db_init.go:34","msg":"开始连接数据库......"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:07:09.337","file":"service/response.go:28","msg":"[response data]:{\"code\":0,\"message\":\"success!\",\"data\":null}"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:10:09.638","file":"mygin/main.go:23","msg":"命令行参数解析完成......"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:10:09.662","file":"dbConnect/db_init.go:34","msg":"开始连接数据库......"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:10:21.285","file":"service/response.go:28","msg":"[response data]:{\"code\":0,\"message\":\"success!\",\"data\":null}"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:10:30.449","file":"service/response.go:28","msg":"[response data]:{\"code\":0,\"message\":\"success!\",\"data\":null}"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:23:55.300","file":"mygin/main.go:23","msg":"命令行参数解析完成......"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:23:55.321","file":"dbConnect/db_init.go:34","msg":"开始连接数据库......"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:24:48.468","file":"service/response.go:28","msg":"[response data]:{\"code\":1002,\"message\":\"Error occurred while binding the request body struct\",\"data\":\"invalid character '\\\\r' in string literal\"}"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:25:03.401","file":"model/user.go:55","msg":"offset is: 0,limit is: 1"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:25:03.405","file":"service/response.go:28","msg":"[response data]:{\"code\":0,\"message\":\"success!\",\"data\":[{\"username\":\"test_user\",\"password\":\"$2a$10$lw.e145gnTHKkBpbXuCltusQFDOiFUT9XLKiqeE1YovAF4SAHjMHK\",\"role\":1},{\"username\":\"xzx252345\",\"password\":\"$2a$10$wFT9G2x92oTlNbUMs35dleI7StkG6tlm/eXkeFzAd2HuyyY8K3p2q\",\"role\":1}]}"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:25:25.881","file":"model/user.go:55","msg":"offset is: 0,limit is: 0"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:25:25.885","file":"service/response.go:28","msg":"[response data]:{\"code\":0,\"message\":\"success!\",\"data\":[{\"username\":\"test_user\",\"password\":\"$2a$10$lw.e145gnTHKkBpbXuCltusQFDOiFUT9XLKiqeE1YovAF4SAHjMHK\",\"role\":1},{\"username\":\"xzx252345\",\"password\":\"$2a$10$wFT9G2x92oTlNbUMs35dleI7StkG6tlm/eXkeFzAd2HuyyY8K3p2q\",\"role\":1}]}"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:26:18.511","file":"service/create.go:27","msg":"user data insert xzvdf"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:26:18.520","file":"service/response.go:28","msg":"[response data]:{\"code\":0,\"message\":\"success!\",\"data\":{\"Username\":\"xzvdf\",\"Role\":1}}"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:26:28.517","file":"service/create.go:27","msg":"user data insert xzvdfsadf"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:26:28.523","file":"service/response.go:28","msg":"[response data]:{\"code\":0,\"message\":\"success!\",\"data\":{\"Username\":\"xzvdfsadf\",\"Role\":2}}"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:26:38.994","file":"model/user.go:55","msg":"offset is: 0,limit is: 1"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:26:39.001","file":"service/response.go:28","msg":"[response data]:{\"code\":0,\"message\":\"success!\",\"data\":[{\"username\":\"test_user\",\"password\":\"$2a$10$lw.e145gnTHKkBpbXuCltusQFDOiFUT9XLKiqeE1YovAF4SAHjMHK\",\"role\":1},{\"username\":\"xzx252345\",\"password\":\"$2a$10$wFT9G2x92oTlNbUMs35dleI7StkG6tlm/eXkeFzAd2HuyyY8K3p2q\",\"role\":1},{\"username\":\"xzvdf\",\"password\":\"$2a$10$dU/ASFcIB2d3p2mzwf7qROXD63V0i6/XVoZ83yieivi6qZiksdspe\",\"role\":1},{\"username\":\"xzvdfsadf\",\"password\":\"$2a$10$HwYaXR5cuuyGpd4ZCKS3B.uXumGqG/tir3dbLUeJWENh1vMIUMTNO\",\"role\":2}]}"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:27:38.162","file":"model/user.go:55","msg":"offset is: 1,limit is: 2"}
+{"level":"DEBUG","timestamp":"2023-05-23 17:27:38.168","file":"service/response.go:28","msg":"[response data]:{\"code\":0,\"message\":\"success!\",\"data\":[{\"username\":\"xzx252345\",\"password\":\"$2a$10$wFT9G2x92oTlNbUMs35dleI7StkG6tlm/eXkeFzAd2HuyyY8K3p2q\",\"role\":1},{\"username\":\"xzvdf\",\"password\":\"$2a$10$dU/ASFcIB2d3p2mzwf7qROXD63V0i6/XVoZ83yieivi6qZiksdspe\",\"role\":1}]}"}

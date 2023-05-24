@@ -1,0 +1,25 @@
+runmode: debug
+addr: :8000
+name: apiserver
+log:
+  # 输出日志到哪里
+  writers: file,stdout
+  # 日志等级（DEBUG、INFO、WARN、ERROR、FATAL）
+  logger_level: DEBUG
+  # 日志文件位置
+  logger_file: log/apiserver.log
+  # 日志格式JSON(false) 或者 plaintext（true）
+  log_format_text: false
+  # 日志轮循方式（daily或size）
+  rollingPolicy: size
+  # 多久轮循一次，配合`rollingPolicy: daily` 使用
+  log_rotate_date: 1
+  # 多大轮循一次，配 合`rollingPolicy: size` 使用, 单位M
+  log_rotate_size: 1
+  # 保留几份备份
+  log_backup_count: 7
+db:
+  name: flask
+  addr: 192.168.10.145:33060
+  username: xuzixuan
+  password: xzx527416
